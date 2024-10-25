@@ -87,7 +87,6 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  text-align: justify;
 }
 
 abbr[title],
@@ -6128,13 +6127,13 @@ button.bg-success:focus {
 }
 
 .bg-info {
-  background-color: #A084CF !important;
+  background-color: #17a2b8 !important;
 }
 
 a.bg-info:hover, a.bg-info:focus,
 button.bg-info:hover,
 button.bg-info:focus {
-  background-color: #674188 !important;
+  background-color: #117a8b !important;
 }
 
 .bg-warning {
@@ -6168,7 +6167,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #674188 !important;
+  background-color: #343a40 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -9824,11 +9823,11 @@ a.text-success:hover, a.text-success:focus {
 }
 
 .text-info {
-  color: #A084CF !important;
+  color: #17a2b8 !important;
 }
 
 a.text-info:hover, a.text-info:focus {
-  color: #674188 !important;
+  color: #0f6674 !important;
 }
 
 .text-warning {
