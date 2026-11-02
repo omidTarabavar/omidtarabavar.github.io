@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research | Omid Tarabavar</title>
+  <meta name="description" content="Publications and projects by Omid Tarabavar: multimodal fact verification, LLMs and agentic systems, and trustworthy machine learning.">
+  <meta name="author" content="Omid Tarabavar">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Research | Omid Tarabavar">
+  <meta property="og:description" content="Publications and projects by Omid Tarabavar: multimodal fact verification, LLMs and agentic systems, and trustworthy machine learning.">
+  <meta property="og:image" content="https://omidtarabavar.github.io/images/omid.jpg">
+  <meta property="og:url" content="https://omidtarabavar.github.io/research.html">
+  <meta name="theme-color" content="#f3f5f4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e161c" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>
+    // Apply the saved theme before first paint to avoid a flash.
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <a class="topbar-name" href="index.html">Omid Tarabavar</a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="sidebar">
+      <span class="menu-icon" aria-hidden="true"></span>
+      <span class="menu-label">Menu</span>
+    </button>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-inner">
+        <a class="portrait-link" href="index.html" tabindex="-1" aria-hidden="true"><img class="portrait" src="images/omid.jpg" width="480" height="480" alt=""></a>
+        <p class="name">Omid Tarabavar</p>
+        <p class="role">M.Sc. student in AI<br>Amirkabir University of Technology<br>NLP Lab, Tehran</p>
+
+        <nav class="nav" aria-label="Pages">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html" aria-current="page">Research</a></li>
+            <li><a href="cv.html">CV</a></li>
+          </ul>
+        </nav>
+
+        <ul class="links">
+          <li><a href="mailto:omidtarab1300@gmail.com"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5zm1.8.3 7.2 5.6 7.2-5.6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>Email</a></li>
+          <li><a href="https://github.com/omidTarabavar"><svg aria-hidden="true" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.5a9.5 9.5 0 0 0-3 18.5c.5.1.6-.2.6-.5v-1.7c-2.6.6-3.2-1.2-3.2-1.2-.4-1.1-1-1.4-1-1.4-.9-.6 0-.6 0-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.3-2.1-.2-4.3-1-4.3-4.7 0-1 .4-1.9 1-2.6-.1-.2-.4-1.2.1-2.5 0 0 .8-.3 2.6 1a9 9 0 0 1 4.8 0c1.8-1.3 2.6-1 2.6-1 .5 1.3.2 2.3.1 2.5.6.7 1 1.6 1 2.6 0 3.7-2.2 4.5-4.3 4.7.3.3.6.9.6 1.8v2.6c0 .3.2.6.7.5A9.5 9.5 0 0 0 12 2.5"/></svg>GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/omidtarabavar/"><svg aria-hidden="true" viewBox="0 0 24 24"><path fill="currentColor" d="M4.5 3A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3zm2.2 3.4a1.4 1.4 0 1 1 0 2.8 1.4 1.4 0 0 1 0-2.8M5.5 10h2.5v8H5.5zm4.1 0H12v1.1c.4-.7 1.3-1.3 2.6-1.3 2.6 0 3.1 1.7 3.1 3.9V18h-2.5v-3.8c0-.9 0-2.1-1.3-2.1s-1.5 1-1.5 2V18H9.6z"/></svg>LinkedIn</a></li>
+          <li><a href="cv/Omid_Tarabavar_CV.pdf" download><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 3.5h7l4 4V20a.5.5 0 0 1-.5.5h-10A.5.5 0 0 1 7 20zM14 3.5V8h4M12 11v6m-2.5-2.5L12 17l2.5-2.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>CV (PDF)</a></li>
+        </ul>
+
+        <button class="theme-toggle" type="button" aria-label="Switch color theme">
+          <svg class="icon-moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          <svg class="icon-sun" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.5M12 19v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12H5M19 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <span class="theme-label">Dark theme</span>
+        </button>
+      </div>
+    </aside>
+
+    <main id="main" class="content">
+      <h1 class="page-title">Research</h1>
+
+      <section class="section first" id="publications" aria-labelledby="pub-title">
+        <h2 id="pub-title">Publications</h2>
+        <article class="entry pub" id="pub-vacf">
+          <h3>Visual-Anchored Context Fusion for Source-Faithful Evidence Retrieval in Multimodal Fact Verification</h3>
+          <p class="authors"><strong>Omid Tarabavar</strong>, Saeedeh Momtazi, and Reza Safabakhsh</p>
+          <p class="venue"><span class="badge">Under review</span> <em>Applied Soft Computing</em></p>
+          <p>A training-free retrieval framework for multimodal fact verification. A visual-source ranking selects a protected set of evidence sources, contextual retrieval fills the remaining slots, and source-faithful restoration expands text only from the same page, so every piece of evidence keeps its provenance. Evaluated on AVerImaTeC.</p>
+          <p class="entry-links"><a href="https://github.com/omidTarabavar/vacf-source-faithful-retrieval">Code</a></p>
+        </article>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="proj-title">
+        <h2 id="proj-title">Selected projects</h2>
+
+        <article class="entry project" id="proj-banking">
+          <div class="entry-head">
+            <h3>Persian banking assistant: hybrid intent routing, RAG, and LLM-as-a-judge</h3>
+            <p class="meta">Advanced NLP, 2026</p>
+          </div>
+          <p>A multi-turn chatbot where a fine-tuned ParsBERT classifier hands uncertain queries to a few-shot LLM, with LLM slot filling and hybrid retrieval with reranking. Intent accuracy rose from 87.7% to 96.2%; RAGAS and a custom judge agreed on correctness (r = 0.74) but barely on faithfulness (r = 0.19).</p>
+          <p class="entry-links"><a href="https://github.com/omidTarabavar/persian-banking-assistant-rag">Code</a></p>
+        </article>
+
+        <article class="entry project" id="proj-peft">
+          <div class="entry-head">
+            <h3>LoRA vs. hand-built adapters on Gemma 3n</h3>
+            <p class="meta">Advanced NLP, 2026</p>
+          </div>
+          <p>Fine-tuned Gemma 3n on Persian news with LoRA and with bottleneck adapters written from scratch. With 64% fewer trainable parameters, the adapters reached lower in-domain perplexity and forgot less out of domain (+19.9% vs. +33.6%).</p>
+          <p class="entry-links"><a href="https://github.com/omidTarabavar/gemma3n-peft-lora-vs-adapters">Code</a></p>
+        </article>
+
+        <article class="entry project" id="proj-robustness">
+          <div class="entry-head">
+            <h3>Adversarial robustness and fairness audit</h3>
+            <p class="meta">Trustworthy ML, 2026</p>
+          </div>
+          <p>Attacks and adversarial training on Fashion-MNIST and CIFAR-10, checked for gradient masking with EOT-PGD, transfer attacks, and AutoAttack, plus a fairness, SHAP, and mitigation audit on Adult Income. PGD training lifted CIFAR-10 AutoAttack accuracy from 0% to 30.7%.</p>
+          <p class="entry-links"><a href="https://github.com/omidTarabavar/adversarial-robustness-fairness-audit">Code</a></p>
+        </article>
+
+        <article class="entry project" id="proj-shift">
+          <div class="entry-head">
+            <h3>Generalization under distribution shift</h3>
+            <p class="meta">Trustworthy ML, 2026</p>
+          </div>
+          <p>Reweighting, DANN, and CycleGAN for domain adaptation on rotated MNIST: all recover part of a 15° shift and all fail at 90°. Transfer from 200 labeled samples reached 96.1%, against 80.2% from scratch.</p>
+          <p class="entry-links"><a href="https://github.com/omidTarabavar/generalization-under-domain-shift">Code</a></p>
+        </article>
+
+        <article class="entry project" id="proj-typing">
+          <div class="entry-head">
+            <h3>Typing assistant</h3>
+            <p class="meta">B.Sc. thesis, 2024–2025</p>
+          </div>
+          <p>Next-word prediction with an n-gram model, an LSTM, and a Transformer-based model.</p>
+          <p class="entry-links"><a href="https://github.com/omidTarabavar/Typing-Assistant">Code</a> <a href="https://drive.google.com/drive/folders/1AslKqTpyaAyIYk4jaE81O59HKw7ebraZ?usp=sharing">Report</a></p>
+        </article>
+
+        <details class="earlier">
+          <summary>Earlier undergraduate projects</summary>
+          <ul class="earlier-list">
+            <li><a href="https://github.com/omidTarabavar/Learning-Management-System">Learning management system</a><span>C# and SQL; Database Lab, 2024</span></li>
+            <li><a href="https://github.com/omidTarabavar/Monte-Carlo-Simulation">Monte Carlo project-risk simulator</a><span>Python; Management of IT Projects, 2023</span></li>
+            <li><a href="https://github.com/omidTarabavar/Smart-Irrigation-System">FPGA smart irrigation system</a><span>VHDL; Digital Computer Systems Design, 2023</span></li>
+            <li><a href="https://github.com/omidTarabavar/Stratego">Stratego with an AI opponent</a><span>Java; Advanced Programming, 2022</span></li>
+            <li><a href="https://github.com/omidTarabavar/Sudoku">Sudoku creator and solver</a><span>C++; Fundamentals of Programming, 2022</span></li>
+          </ul>
+        </details>
+      </section>
+
+      <footer class="footer">
+        <p class="next"><a href="cv.html">Next: CV</a></p>
+        <p>Last updated November 2026</p>
+      </footer>
+    </main>
+  </div>
+
+  <p class="toast" role="status" aria-live="polite"></p>
+  <script src="js/main.js"></script>
+</body>
+</html>
