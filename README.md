@@ -15,8 +15,8 @@ Styles are in `css/styles.css` and behavior (theme toggle, mobile menu, copy but
 ## Updating
 
 - **Text:** edit the page directly. The sidebar is repeated in all three files, so change it in each one.
-- **CV PDF:** replace `cv/Omid_Tarabavar_CV.pdf` and keep the same file name, so every link keeps working.
-- **News:** add a new `<li>` at the top of the "Recently" list in `index.html`.
+- **CV PDF:** replace `cv/Omid_Tarabavar_CV.pdf` and keep the same file name.
+- **After any change to the CSS, JS, or CV PDF:** raise the version number in the links (for example `?v=4` to `?v=5`) in all three pages, so browsers download the new file instead of a cached copy.
 - **Footer date:** update "Last updated" at the bottom of each page.
 
 To preview locally, open `index.html` in a browser, or run `python -m http.server` in this folder and visit `http://localhost:8000`.

@@ -846,3 +846,19 @@ h3 { font-size: 1.22rem; }
   body { background: #fff; color: #000; font-size: 11pt; }
   a { color: #000; }
 }
+
+/* ---------- additions: five interests, in-preparation papers ---------- */
+
+.interests .wide { grid-column: 1 / -1; }
+
+.badge-prep {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.working {
+  font-weight: 400;
+  font-size: 0.85em;
+  color: var(--muted);
+  white-space: nowrap;
+}
